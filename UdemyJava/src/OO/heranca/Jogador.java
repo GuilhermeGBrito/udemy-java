@@ -3,9 +3,14 @@ package OO.heranca;
 public class Jogador {
 
 	int vida = 100;
-
 	int x;
 	int y;
+
+	Jogador(int x, int y){
+		this.x = x;
+		this.y = y;
+		
+	}
 
 	boolean atacar(Jogador oponente) {
 
@@ -18,7 +23,7 @@ public class Jogador {
 		} else if (deltaX == 1 && deltaY == 0) {
 			oponente.vida -= 10;
 			return true;
-		} else {
+		} else { 
 			return false;
 		}
 	}
