@@ -2,11 +2,11 @@ package OO.heranca.desafio;
 
 public class Civic extends Carro {
 
-	Civic() {
+	public Civic() {
 		super(212);
 	}
 
-	Civic(int velociadeMaxima) {
+	public Civic(int velociadeMaxima) {
 		super(velociadeMaxima);
 	}
 
